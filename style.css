@@ -1,0 +1,169 @@
+/* Estilos Gerais (Todo o projeto) */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background: #1F1517;
+  color: #17203F;
+  background-image: url("BecaCollection-Alunos/assets/bg-2.png");
+}
+
+html{
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none; /* Remove decoração */
+}
+
+ul{
+  /* Remove os marcadores (Bolinhas) */
+  list-style-type: none;
+}
+
+/* ______________________________________________________________________________ */
+/* Cabeçalho/Header (Barra de navegação) */
+nav{
+  max-width: 1120px;
+  margin: auto;
+  padding: 1.5rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+
+}
+
+.title{
+  /* font-family: 'Teko', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase; */
+}
+
+.title img{
+    max-width: 100px;
+}
+
+/* Estilos Do Menu */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+.menu-icon {
+max-width: 80px;
+display: none;
+}
+
+header{
+background: #C3BCB7;
+}
+
+.menu {
+display: flex;
+flex-direction: row;
+gap: 24px;
+color: #17203F;
+margin-top: 9px;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+.menu a:hover{
+color: #8B634A;
+}
+
+.menu a:visited{
+color: #FFF2E780;
+}
+
+span{
+display: flex;
+justify-content: center;
+font-size: 50px;
+}
+
+
+
+
+/* __________________________________________________________________*/
+/* Formulário */
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    box-shadow: #1F1517;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #C3BCB7;
+  }
+
+
+
+/* __________________________________________________________________*/
+/* Botão */
+.button {
+    width: 100%;
+    max-width: 1120px;
+    padding: 1rem;
+    margin: auto;
+    transform: translateY(-50%);
+  }
+  
+  button {
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #1B3B56;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background: #8B634A;
+  }
+
+
+/* ________________________________________ */
+/* Footer */
+
+footer {
+    /* padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: #C3BCB7; */
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.footer-container {
+    color: #fff2e7;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-content {
+    color: rgba(255, 242, 231, 0.50);
+    font-family: 'Inter' sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer img{
+    max-width: 100px;
+}
