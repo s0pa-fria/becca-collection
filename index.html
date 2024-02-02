@@ -4,58 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- favicon -->
-        <link rel="shortcut icon" href="" type="x-icon">
-    
-        <!-- Link para CSS -->
-        <link rel="stylesheet" href="style.css">
-
-    <title>Beca Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <title>BECCACOLLECTION</title>
 </head>
 <body>
     <header>
-        <nav>
-            <span class="title"><img src="BecaCollection-Alunos/assets/logo-roupa.png" alt=""></span>
-            <ul class="menu" id="MenuItems">
-                <li><a>Home</a></li>
-                <li><a>Novidades</a></li>
-                <li><a>Destaque</a></li>
-                <li><a>Contato</a></li>
-            </ul>
-        </nav>
+        <img src="BecaCollection-Alunos/assets/logo-roupa.png" alt="Logo" class="Logo">
+
+        <Ul class="paginas-N">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Novidades</a></li>
+            <li><a href="#">Destaque</a></li>
+            <li><a href="#">Contato</a></li>
+        </Ul>
     </header>
-    
+
     <main>
-        <div class="container">
-            <section>
-                <span>Contato</span>
-                <form action="" method="post">
-                    <h2 >Nosso Newsletter</h2>
-                    <div>
-                        <input type="text" id="name" placeholder="Nome Completo:">
-                    </div>
 
-                    <div>
-                    <input type="email" id="mail" placeholder="Seu E-mail">
-                    </div>
-
-                    <div class="button">
-                      <button type="submit">Inscreva-se</button>
-                    </div>
-                  </form>
-                
-                
-            </section>
+        <div class="titulo">
+            <h1>Contato</h1>
         </div>
+
+        <section class="form">
+
+            <h2>Nosso Newsletter</h2>
+            <form action="processa.php" method="post" class="input">
+
+                <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+                <input type="email" name="email" id="email" placeholder="Seu E-mail">
+                <input type="submit" value="Inscreva-se" class="butão">
+
+            </form>
+        </section>
     </main>
 
+    <footer class="footer">
 
-    <!-- ________________________________________________________ -->
-    <!-- Footer -->
-    <footer>
-        <img src="BecaCollection-Alunos/assets/logo-roupa.png" alt="">
-        <p class="footer-container">Copyright  2024 FRONT All Rights Reserved</p>
-        <p class="footer-content">Tel.:5898-5874</p>
+        <img src="BecaCollection-Alunos/assets/logo-roupa.png" alt="" class="Logo">
+
+        <p>Copyright©2024 FRONT All Right Reserved</p>
+
+        <p>Tel: 5898-5874</p>
     </footer>
+    
 </body>
-</html> 
+</html>
